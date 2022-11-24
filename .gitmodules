@@ -1,0 +1,3 @@
+[submodule "ExtraTools"]
+	path = ExtraTools
+	url = git@github.com:digitalist-se/extratools.git
