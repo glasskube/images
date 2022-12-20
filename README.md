@@ -3,7 +3,7 @@
 **Build and push:**
 
 ```shell
-MATOMO_TAG="ghcr.io/glasskube/matomo-docker:4.12.3-apache.b"
+MATOMO_TAG="ghcr.io/glasskube/matomo-docker:4.13.0-apache"
 docker build -t $MATOMO_TAG .
 docker push $MATOMO_TAG
 ```
