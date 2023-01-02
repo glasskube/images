@@ -1,17 +1,25 @@
-# matomo-docker
+<br>
+<div align="center">
+  <a href="https://github.com/glasskube/operator">
+    <img src="https://raw.githubusercontent.com/glasskube/.github/main/images/glasskube-logo.png" alt="Glasskube Logo" height="160">
+  </a>
 
-**Build and push:**
+<h3 align="center">Kubernetes Operator</h3>
 
-```shell
-MATOMO_TAG="ghcr.io/glasskube/matomo-docker:4.13.0-apache"
-docker build -t $MATOMO_TAG .
-docker push $MATOMO_TAG
-```
+  <p align="center">
+    Running Open Source Tools on autopilot 
+    <br><br>
+    <a href="https://github.com/glasskube/operator"><strong>Explore the source code »</strong></a>
+    <br>
+    <br>
+    <a href="https://glasskube.eu/">Website</a>
+    ·
+    <a href="https://www.linkedin.com/company/glasskube/">LinkedIn</a>
+  </p>
+</div>
 
-**Container tasks:**
+<hr>
 
-```shell
-rsync -crlOt --no-owner --no-group --no-perms /usr/src/matomo/ /var/www/html/
-./console plugin:activate ExtraTools && ./console matomo:install --install-file=/tmp/matomo/install.json --force --do-not-drop-db
+### Image Repository
 
-```
+Explore the sub folders to see supported applications.

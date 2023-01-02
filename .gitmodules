@@ -1,3 +1,3 @@
-[submodule "ExtraTools"]
-	path = ExtraTools
+[submodule "matomo/ExtraTools"]
+	path = matomo/ExtraTools
 	url = git@github.com:digitalist-se/extratools.git
