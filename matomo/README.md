@@ -1,11 +1,10 @@
-# matomo-docker
+# matomo
 
 **Build and push:**
 
 ```shell
 MATOMO_TAG="glasskube/matomo:4.13.3"
 docker build -t $MATOMO_TAG .
-docker push $MATOMO_TAG
 ```
 
 **Container tasks:**
