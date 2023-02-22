@@ -34,7 +34,7 @@ function init_db {
 }
 
 function update_db {
-  /entrypoint.sh "$@" "--update" "base" "-d" "$DB_NAME" "--stop-after-init"
+  /entrypoint.sh "$@" "--update" "all" "-d" "$DB_NAME" "--stop-after-init"
 }
 
 check_db
