@@ -1,4 +1,4 @@
-FROM odoo@sha256:006e79693b044bf0e7ed912da4dd082bcc1724d14f5ab4a14a679b62194b38f8
+FROM odoo@sha256:a11212341f44959ca49b24f0bb8de75eb42f2e03eb2116513e64199fda13edcd
 
 COPY ./run.sh /glasskube/
 
