@@ -1,4 +1,4 @@
-FROM matomo:5.0.0-apache
+FROM matomo:5.0.1-apache
 LABEL org.opencontainers.image.source=https://github.com/glasskube/images/tree/main/matomo
 
 RUN set -ex; \
